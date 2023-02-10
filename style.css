@@ -1,0 +1,116 @@
+:root {
+  --color-dark: #333;
+  --color-light: #fafafa;
+  --spacing: clamp(1rem, -0.6rem + 2.6vw, 2rem);
+  --spacing-medium: calc(var(--spacing) / 2);
+  --border-width: 3px;
+  --border-color: var(--color-dark);
+  --border: var(--border-width) solid var(--border-color);
+  --transition-time: .3s;
+  --font-size-largest: clamp(2rem, -1.2rem + 5.34vw, 4rem);
+  --font-size-larger: clamp(1.75rem, -0.75rem + 3.33vw, 3rem);
+  --font-size-large: clamp(1.5rem, -0.451.5rem + 2vw, 2.25rem);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+  padding: var(--spacing);
+  line-height: 1.5;
+  font-family: sans-serif;
+  background-color: var(--color-accent);
+}
+
+header {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  display: flex;
+}
+
+header label,
+header input {
+  display: inline-block;
+  width: auto;
+}
+
+header [type="button"] {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  width: auto;
+  margin-left: auto;
+}
+
+div {
+  padding: var(--spacing);
+  border: var(--border);
+}
+
+div > * {
+  max-width: 48rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+input {
+  transition: var(--transition-time);
+}
+
+input + label {
+  margin-top: var(--spacing);
+}
+
+footer p {
+  max-width: 768px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input {
+  border: var(--border);
+  background-color: white;
+  width: 100%;
+  max-width: 100%;
+  padding: var(--spacing-medium);
+  font-size: 1rem;
+}
+
+[type="button"] {
+  padding: var(--spacing-medium) var(--spacing);
+  margin-top: var(--spacing);
+  font-size: 1rem;
+  cursor: pointer;
+  border: 2px solid var(--color-dark);
+  color: var(--color-dark);
+  border-radius: 50px;
+  background: transparent;
+  font-weight: 700;
+}
+
+[type="button"]:hover,
+[type="button"]:focus {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+[type="button"]:active {
+  transform: scale(0.99);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+pre {
+  font-family: monospaced;
+}
