@@ -11,155 +11,165 @@
 
 <body>
   <header>
-    <label for="css">Remove CSS</label>
-    <input type="checkbox" name="css" id="css">
+    <fieldset>
+      <label for="css">Remove CSS</label>
+      <input type="checkbox" name="css" id="css">
+    </fieldset>
 
     <button type="button">Copy HTML</button>
   </header>
-  <div>
+  <main>
     <h1>Heading Level 1</h1>
     <h2>Heading Level 2</h2>
     <h3>Heading Level 3</h3>
     <h4>Heading Level 4</h4>
     <h5>Heading Level 5</h5>
     <h6>Heading Level 6</h6>
-    
-    <p>A paragraph of text. Lorem ipsum <a href="https://example.com">with a link</a> dolor sit amet consectetur, <em>and
-      some emphasised text</em>adipisicing elit. Repellat <strong> followed by some strong text</strong>molestiae soluta
-      eum vel iusto voluptatibus consequatur tenetur <mark>and some text that is marked</mark> repellendus harum velit
-      <span>this is inside a <code>span</code> tag</span> mollitia voluptatum odit voluptatem facilis quis corporis, minus
-      labore sunt!</p>
-      
-      <ul>
-        <li>A unordered list item 1</li>
-        <li>A unordered list item 2</li>
-        <li>A unordered list item 3</li>
-        <li>A unordered list item 4</li>
-    <li>A unordered list item 5</li>
-  </ul>
-  
-  <ol>
-    <li>A ordered list item 1</li>
-    <li>A ordered list item 2</li>
-    <li>A ordered list item 3</li>
-    <li>A ordered list item 4</li>
-    <li>A ordered list item 5</li>
-  </ol>
-  
-  <blockquote>
-    <p>This is a blockquote. Someone important said this. It is followed by the author in a <code>cite</code> tag.</p>
-    <cite>Mark Conroy</cite>
-  </blockquote>
-  
-  <figure>
-    <img src="assets/dall-e.png"
-    alt="Dall-e created image of person writing on a laptop in a field in the west of Ireland.">
-    <figcaption>Dall-e created image of person writing on a laptop in a field in the west of Ireland.</figcaption>
-  </figure>
-  
-  <address>
-    Mark Conroy<br>
-    123 Main Street<br>
-    Dublin<br>
-    Ireland
-  </address>
-  
-  <table>
-    <tr>
-      <th>Band</th>
-      <th>Album</th>
-      <th>Song</th>
-    </tr>
-    <tr>
-      <td>Nirvana</td>
-      <td>Nevermind</td>
-      <td>Smells Like Teen Spirit</td>
-    </tr>
-    <tr>
-      <td>Manic Stree Preaches</td>
-      <td>The Holy Bible</td>
-      <td>Faster</td>
-    </tr>
-    <tr>
-      <td>Pearl Jam</td>
-      <td>10</td>
-      <td>Jeremy</td>
-    </tr>
-    <tr>
-      <td>Rage Against the Machine</td>
-      <td>The Battle of Los Angeles</td>
-      <td>Sleep Now in the Fire</td>
-    </tr>
-    <tr>
-      <td>Joy Division</td>
-      <td>Closer</td>
-      <td>Love will Tear Us Apart</td>
-    </tr>
-  </table>
-  
-  <form action="#">
-    
-    <fieldset>
-      <legend>HTML Input Formats</legend>
-      <label for="text">A text input</label>
-      <input type="text" name="text" id="text">
-      
-      <label for="email">A email input</label>
-      <input type="email" name="email" id="email">
-      
-      <label for="password">A password input</label>
-      <input type="password" name="password" id="password">
-      
-      <label for="tel">A phone input</label>
-      <input type="tel" name="tel" id="tel">
-      
-      <label for="date">A date input</label>
-      <input type="date" name="date" id="date">
-      
-      <label for="textarea">A textarea input</label>
-      <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
-    </fieldset>
-    
-    <fieldset>
-      <legend>HTML Select List</legend>
-      <label for="select">A select field</label>
-      <select name="select" id="select">
-        <option value="person-1">Person 1</option>
-        <option value="person-2">Person 2</option>
-        <option value="person-3">Person 3</option>
-        <option value="person-4">Person 4</option>
-        <option value="person-5">Person 5</option>
-      </select>
-    </fieldset>
-    
-    <fieldset>
-      <legend>HTML Checkboxes</legend>
-      <input type="checkbox" name="checkbox-1" id="checkbox-1">
-      <label for="checkbox-1">Checkbox 1</label>
-      <input type="checkbox" name="checkbox-2" id="checkbox-2">
-      <label for="checkbox-2">Checkbox 2</label>
-      <input type="checkbox" name="checkbox-3" id="checkbox-3">
-      <label for="checkbox-3">Checkbox 3</label>
-      <input type="checkbox" name="checkbox-4" id="checkbox-4">
-      <label for="checkbox-4">Checkbox 4</label>
-    </fieldset>
-    
-    <fieldset>
-      <legend>HTML Radio Buttons</legend>
-      <input type="radio" name="radio" id="radio-1">
-      <label for="radio-1">Radio 1</label>
-      <input type="radio" name="radio" id="radio-2">
-      <label for="radio-2">Radio 2</label>
-      <input type="radio" name="radio" id="radio-3">
-      <label for="radio-3">Radio 3</label>
-      <input type="radio" name="radio" id="radio-4">
-      <label for="radio-4">Radio 4</label>
-    </fieldset>
-    
-    <button type="submit">Submit Button</button>
-  </form>
-</div>
-<script src="script.js"></script>
+
+    <p>This is a handy example of HTML elements that you can copy/paste into your own editor to check default styles. A
+      paragraph of text. Lorem ipsum <a href="https://example.com">with a link</a> dolor sit amet consectetur,
+      <em>and some emphasised text</em>adipisicing elit. Repellat <strong> followed by some strong
+        text</strong>molestiae solutaeum vel iusto voluptatibus consequatur tenetur <mark>and some text that is
+        marked</mark> repellendus harum velit
+      <span>this is inside a <code>span</code> tag</span> mollitia voluptatum odit voluptatem facilis quis corporis,
+      minus labore sunt!
+    </p>
+
+    <ul>
+      <li>A unordered list item 1</li>
+      <li>A unordered list item 2</li>
+      <li>A unordered list item 3</li>
+      <li>A unordered list item 4</li>
+      <li>A unordered list item 5</li>
+    </ul>
+
+    <ol>
+      <li>A ordered list item 1</li>
+      <li>A ordered list item 2</li>
+      <li>A ordered list item 3</li>
+      <li>A ordered list item 4</li>
+      <li>A ordered list item 5</li>
+    </ol>
+
+    <blockquote>
+      <p>This is a blockquote. Someone important said this. It is followed by the author in a <code>cite</code> tag.</p>
+      <cite>Mark Conroy</cite>
+    </blockquote>
+
+    <figure>
+      <img src="assets/dall-e.png"
+        alt="Dall-e created image of person writing on a laptop in a field in the west of Ireland.">
+      <figcaption>Dall-e created image of person writing on a laptop in a field in the west of Ireland.</figcaption>
+    </figure>
+
+    <address>
+      Mark Conroy<br>
+      123 Main Street<br>
+      Dublin<br>
+      Ireland
+    </address>
+
+    <table>
+      <tr>
+        <th>Band</th>
+        <th>Album</th>
+        <th>Song</th>
+      </tr>
+      <tr>
+        <td>Nirvana</td>
+        <td>Nevermind</td>
+        <td>Smells Like Teen Spirit</td>
+      </tr>
+      <tr>
+        <td>Manic Stree Preaches</td>
+        <td>The Holy Bible</td>
+        <td>Faster</td>
+      </tr>
+      <tr>
+        <td>Pearl Jam</td>
+        <td>10</td>
+        <td>Jeremy</td>
+      </tr>
+      <tr>
+        <td>Rage Against the Machine</td>
+        <td>The Battle of Los Angeles</td>
+        <td>Sleep Now in the Fire</td>
+      </tr>
+      <tr>
+        <td>Joy Division</td>
+        <td>Closer</td>
+        <td>Love will Tear Us Apart</td>
+      </tr>
+    </table>
+
+    <form action="#">
+
+      <fieldset>
+        <legend>HTML Input Formats</legend>
+        <label for="text">A text input</label>
+        <input type="text" name="text" id="text">
+
+        <label for="email">A email input</label>
+        <input type="email" name="email" id="email">
+
+        <label for="password">A password input</label>
+        <input type="password" name="password" id="password">
+
+        <label for="tel">A phone input</label>
+        <input type="tel" name="tel" id="tel">
+
+        <label for="date">A date input</label>
+        <input type="date" name="date" id="date">
+
+        <label for="textarea">A textarea input</label>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>HTML Select List</legend>
+        <label for="select">A select field</label>
+        <select name="select" id="select">
+          <option value="person-1">Person 1</option>
+          <option value="person-2">Person 2</option>
+          <option value="person-3">Person 3</option>
+          <option value="person-4">Person 4</option>
+          <option value="person-5">Person 5</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>HTML Checkboxes</legend>
+        <input type="checkbox" name="checkbox-1" id="checkbox-1">
+        <label for="checkbox-1">Checkbox 1</label>
+        <input type="checkbox" name="checkbox-2" id="checkbox-2">
+        <label for="checkbox-2">Checkbox 2</label>
+        <input type="checkbox" name="checkbox-3" id="checkbox-3">
+        <label for="checkbox-3">Checkbox 3</label>
+        <input type="checkbox" name="checkbox-4" id="checkbox-4">
+        <label for="checkbox-4">Checkbox 4</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>HTML Radio Buttons</legend>
+        <input type="radio" name="radio" id="radio-1">
+        <label for="radio-1">Radio 1</label>
+        <input type="radio" name="radio" id="radio-2">
+        <label for="radio-2">Radio 2</label>
+        <input type="radio" name="radio" id="radio-3">
+        <label for="radio-3">Radio 3</label>
+        <input type="radio" name="radio" id="radio-4">
+        <label for="radio-4">Radio 4</label>
+      </fieldset>
+
+      <button type="submit">Submit Button</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Code is available on <a href="https://github.com/markconroy/elements">GitHub</a>.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
